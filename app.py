@@ -103,7 +103,7 @@ template = """You are participanting in an interview with a researcher. Respond 
 prompt = PromptTemplate(
     input_variables=["chat_history", "input"],
     template=template)
-llm = ChatOpenAI(temperature=0.5, openai_api_key=openai_api_key, model_name="gpt-4", request_timeout=120)
+llm = ChatOpenAI(temperature=0.5, openai_api_key=openai_api_key, model_name="gpt-4-turbo", request_timeout=120)
 llm_chain = LLMChain(llm=llm, prompt=prompt, memory=memory, verbose=False)
 
 # Render current messages from StreamlitChatMessageHistory
