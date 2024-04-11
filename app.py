@@ -56,7 +56,7 @@ This work has the following license: [NonCommercial-NoDerivatives 4.0 Internatio
 st.sidebar.header("Version")
 st.sidebar.markdown(
 """
-February 25th, 2024 Version (8)
+April 11th, 2024 Version (9)
 """
 )
 #Page design and input
